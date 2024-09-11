@@ -1,3 +1,6 @@
+
+
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/images/pic.jpg);
     height: 100vh;
@@ -8,7 +11,7 @@ header {
 }
 
 .nav {
-    background-color: #5d7804a8;
+    background-color: rgba(39, 104, 49, 0.954);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,8 +49,6 @@ header {
     margin-left: 30%;
     margin-right: 30%;
  } */
-
-
 
 
 
@@ -110,6 +111,7 @@ header {
     grid-row-gap: 0px;
     width: 70%;
     margin: auto;
+
 }
 
 .menu-images h4 {
@@ -118,4 +120,33 @@ header {
 
 .menu-images p {
     margin-top: 1em;
+}
+
+.orderonline {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30%;
+}
+
+.location-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30%;
+}
+
+.review-section h4 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.review-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    width: 70%;
+    margin: auto;
+    padding-top: 5%;
 }
