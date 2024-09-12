@@ -1,179 +1,139 @@
-
-
-
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/images/pic.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(/assets/images/pic.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
+
+.sub-header {
+    font-size: 3rem;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 
 nav {
-    background-color: #C4C8CD;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; 
-    position: fixed; 
-    top: 0; 
-    right: 0; 
-    left: 0;
+  background-color: #c4c8cd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;}
 
-}
 
-.nav-h1 {
-    text-align: left;
-    color: #000200;
-    font-size: 30px;
-    
-    
-}
-
-#nav-items {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-}
-
-#nav-items a {
-    color: #000200;
+  #nav-items a {
+    color: red;
     font-weight: bolder;
     text-decoration: none;
     font-size: 22px;
-}
+    font-style: inherit;
+    
+  }
 
-/* .input-section {
+   #nav-items{ 
     display: flex;
-    justify-content: center;
-    position: relative;
-    top: 50%;
-    /* background-color: rgba(0, 0, 0, 0.733); 
-    padding: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
- } */
-
+    justify-content: space-between;
+    gap: 25px;
+  } 
 
 
 .input-field-h1 {
-    margin-top: 5%;
-    margin-left: 5%;
-    font-size: 80px;
-    color: #000200;
-    padding-top: 20%;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 80px;
+  color: black;
+  padding-top: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.input-button {
-    /* display: flex;
-    justify-content: space-evenly;
-    gap: 25px;  */
-    margin-left: 15%;
-    margin-top: 5%;
-}
+/* .input-button {
+  margin-left: 15%;
+  margin-top: 5%;
+} */
 
-.input-button-1 {
-    margin-right: 5%;
-}
+/* .input-button-1 {
+  margin-right: 5%;
+} */
 
-.input-button-1,
+/* .input-button-1,
 .input-button-2 {
-    padding: 1%;
-    background-color: #5d7804;
-    border-color: black;
-    border-style: solid;
-    border-width: 3px;
-    
-
+  padding: 1%;
+  background-color: #5d7804;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .input-button a {
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+} */
 
 .Main-Menu {
-    height: 100vh;
-
+  /* height: 100vh; */
 }
 
 .Main-Menu img {
-    width: 100%;
+  width: 100%;
 }
 
 .Main-Menu h1 {
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .menu-images {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 0px;
-    width: 70%;
-    margin: auto;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  width: 70%;
+  margin: auto;
 }
 
 .menu-images h4 {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .menu-images p {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
-.orderonline {
+
+.contact-container { 
     display: flex;
-    justify-content: center;
-    padding-bottom: 30%;
+    justify-content: space-evenly;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px; */
 }
 
-/* .location-section{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30%; }*/
+.map{width: 20rem;
+height: 30rem;}
 
-.review-section h4 {
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+#review-section {
+  padding-top: 5%;
 }
 
-.review-section {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 0px;
-    width: 70%;
-    margin: auto;
-    padding-top: 5%;
+.review-section-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  margin: auto;
 }
-
-.contact-container{
-    padding-top: 50%;
-    display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 50px;
-grid-row-gap: 0px;
-}
-
-.contact-us{
-    margin-bottom: 50%;
-    font-size: xx-large;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif
-    
-     
-}
-
-.contact-description{ }

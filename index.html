@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap"
+      rel="stylesheet"
+    />
     <title>DuberchFoods</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/resets.css" />
@@ -13,7 +19,10 @@
       <nav>
         <div>
           <img
-            src="./assets/images/plogonew.png.png"alt="duberchlogo" width="120px"/>
+            src="./assets/images/plogonew.png.png"
+            alt="duberchlogo"
+            width="110px"
+          />
         </div>
 
         <ul id="nav-items">
@@ -21,16 +30,16 @@
           <li class="list-items"><a href="#">Menu</a></li>
           <li class="list-items"><a href="#">Contact Us</a></li>
           <li class="list-items"><a href="#">Reviews</a></li>
-          <li class="list-items"><a href="#">Contact</a></li>
+          <li class="list-items"><a href="#">Gallery</a></li>
         </ul>
       </nav>
 
-      <div class="input-field">
+       <div class="input-field">
         <div>
           <h1 class="input-field-h1">Original Delicious <br />Recipes</h1>
         </div>
 
-        <div class="input-button">
+        <!-- <div class="input-button">
           <button class="input-button-1">
             <a href="#">Search our menu</a>
           </button>
@@ -38,11 +47,11 @@
             <a href="#">Find our location</a>
           </button>
         </div>
-      </div>
+      </div> --> 
     </header>
 
     <section class="Main-Menu">
-      <h1>Discover Our Menu</h1>
+      <h1 class="sub-header">Discover Our Menu</h1>
 
       <div class="menu-images">
         <div>
@@ -83,11 +92,10 @@
       </div>
     </section>
 
-
     <section>
-      <h4 class="contact-us">Contact Us</h4>
+      <h4 class="sub-header">Contact Us</h4>
       <div class="contact-container">
-        <div>
+        <div class="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.5308336436574!2d-0.16971452603032922!3d5.6360391328417885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b5d4a73b859%3A0x4bbcc585d2600010!2s19%20Addis%20Ababa%20Rd%2C%20Accra!5e0!3m2!1sen!2sgh!4v1725966348678!5m2!1sen!2sgh"
             width="300"
@@ -95,9 +103,9 @@
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-
 
         <div class="contact-description">
           <div>
@@ -151,48 +159,52 @@
       </div>
     </section>
 
-    <h4>Reviews</h4>
-    <section class="review-section">
-      <div>
-        <img src="./assets/images/review 4.jpg" alt="" />
-        <p>
-          The BEST pizza I have ever had in my life, if you have not tried it, I
-          don't know what you are waiting for
-        </p>
-      </div>
+    <section id="review-section">
+      <div class="container">
+        <h4 class="sub-header">Reviews</h4>
+        <div class="review-section-container">
+          <div>
+            <img src="./assets/images/review 4.jpg" alt="" />
+            <p>
+              The BEST pizza I have ever had in my life, if you have not tried
+              it, I don't know what you are waiting for
+            </p>
+          </div>
 
-      <div>
-        <img src="./assets/images/review3.jpg" alt="" />
-        <p>
-          Not only is their pizza and burgers sooooo delicious, the customer
-          service is out of this world
-        </p>
-      </div>
+          <div>
+            <img src="./assets/images/review3.jpg" alt="" />
+            <p>
+              Not only is their pizza and burgers sooooo delicious, the customer
+              service is out of this world
+            </p>
+          </div>
 
-      <div>
-        <img src="./assets/images/reviewburger2.jpg" alt="" />
-        <p>
-          The chicken burger with fries was so yummy and I ate the whole thing,
-          even though it was quite heavy for one person. The chicken was tender
-          and went well with the sauce and vegetables. Perfectly cooked and the
-          flavor was amazing
-        </p>
-      </div>
+          <div>
+            <img src="./assets/images/reviewburger2.jpg" alt="" />
+            <p>
+              The chicken burger with fries was so yummy and I ate the whole
+              thing, even though it was quite heavy for one person. The chicken
+              was tender and went well with the sauce and vegetables. Perfectly
+              cooked and the flavor was amazing
+            </p>
+          </div>
 
-      <div>
-        <img src="./assets/images/review1.jpg" alt="" />
+          <div>
+            <img src="./assets/images/review1.jpg" alt="" />
 
-        <p>
-          I rarely get to eat pizza due to my lactose intolerance. Thank you
-          from the bottom of my heart! Everything we had was absolutely
-          delicious and made with so much love.
-        </p>
+            <p>
+              I rarely get to eat pizza due to my lactose intolerance. Thank you
+              from the bottom of my heart! Everything we had was absolutely
+              delicious and made with so much love.
+            </p>
+            
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h4>Contact</h4>
-      <p>+233546912194, +233598962088</p>
-    </section>
+    <footer>
+      
+    </footer>
   </body>
 </html>
