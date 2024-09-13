@@ -44,6 +44,7 @@ nav {
 }
 
 #nav-items {
+  border-style:double;
   display: flex;
   justify-content: space-between;
   gap: 25px;
@@ -146,6 +147,8 @@ nav {
 }
 
 .review-section-container {
+  border-radius: 10%;
+  background-color: #F9C565;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
@@ -154,6 +157,22 @@ nav {
   margin: auto;
 }
 
-.services{ 
+.services {
   background-color: #FBC465;
+}
+
+.new-hot-pizza {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.refreshing-drinks {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
 }
